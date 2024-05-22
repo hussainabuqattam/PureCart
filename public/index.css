@@ -1,0 +1,135 @@
+/*navbar*/
+.PureCart_Nav{background-color: #fff !important}
+.PureCart_Nav .nav-link{color: #000000a3 !important;font-weight: 500 !important;padding-right: 15px !important;}
+
+.PureCart_Nav .Brand_style{font-weight: bold;font-size: 25px;color: rgb(0 0 0 / 70%);}
+
+.cart_icon{margin-right: 15px !important;font-size: 23px !important;padding-top: 0 !important;}
+
+.user_icon{font-size: 23px !important;padding-top: 0 !important;}
+
+.serch_nav{margin-right: 25px;}
+
+.serch_nav input{background-color: #cccccc47;width: 250px;}
+
+.Carousel_img{height: 500px;object-fit: cover;}
+
+/*Carousel*/
+.Carousel_img_container{width: 100%; height: 700px;}
+
+.Carousel_img_container img{width: 100%; height:100%; object-fit: cover;}
+
+
+/*Tittle items*/
+
+.before_tittle{
+	position: relative;
+    position: relative;
+    font-size: 35px;
+    font-weight: 300;
+    color: #db4444;
+}
+.before_tittle::before{
+    content: "";
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    margin-left: -37px;
+    background-color: #db4444;
+    border-radius: 5px;
+}
+
+.tittle_items{
+    margin-top: 50px;
+    margin-top: 100px;
+}
+.tittle_items button{width: 174px;height: 40px;background-color: #db4444 !important; }
+
+.tittle_items button:hover{background-color: #db44449c !important; border: 0;}
+
+/*card*/
+
+.product_card{border: 0 !important;}
+
+.product_card .card-img, .card-img-bottom, .card-img-top{width: 100%;height: 280px;object-fit: fill;}
+
+.product_card .price_style{
+    color: #db4444;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.product_card .Star_style svg{margin-right: 3px;}
+
+.product_card .Card_Body_style{padding-left: 3px !important;}
+
+/*Categories*/
+
+.service-categories{margin-top: 40px !important;}
+  /*DEMO ONLY*/
+  .service-categories .service-card{
+    transition: all 0.2s;
+  }
+  .service-categories .card-title{
+    padding-top: 0.5em;
+  }
+  .service-categories a:hover{
+    text-decoration: none;
+  }
+  .service-card{
+    padding: 25px;
+    background: #db4444;
+    border: 0;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  .service-card:hover{
+    background: #fff;
+    border-right: 5px solid #db4444;
+    border-left: 5px solid #db4444;
+  }
+  .icon_categories{font-size: 60px;}
+
+/*Showproduct*/
+.Image_Show{
+    height: 500px !important;
+    width: 100%;
+    object-fit: fill;
+    margin-top: 50px;
+}
+/*Brand*/
+
+.brand_cover{width: 100%;height: 653px;}
+
+.brand_cover img{width: 100%;height: 100%;object-fit: cover;}
+
+.median_img img{height: 423px;width: 100%;object-fit: cover;}
+
+.small_img img{height: 204px;width: 100%; object-fit: cover;}
+
+
+/*footer*/
+
+.copy_right{margin:0; padding-bottom: 20px;color: #3d3d3d;}
+
+.Support_section p{color: hsl(0, 1%, 69%);}
+
+footer .list-unstyled li{padding-top: 10px;}
+
+footer .list-unstyled li a{text-decoration:auto;color: hsl(0, 1%, 69%) !important;}
+
+footer .Social_footer{padding-top: 10px;}
+
+footer .Social_footer a{color: #fff; margin-right: 10px;}
+
+footer .Social_footer .Facebook:hover{color: #0d6efd;}
+
+footer .Social_footer .Twiter:hover{color: #0dcaf0;}
+
+footer .Social_footer .instgram:hover{color: #ab3f3f;}
+
+footer .Social_footer .linked:hover{color: #0081fb;}
+
+
+
