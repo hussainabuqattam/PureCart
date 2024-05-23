@@ -131,5 +131,48 @@ footer .Social_footer .instgram:hover{color: #ab3f3f;}
 
 footer .Social_footer .linked:hover{color: #0081fb;}
 
+/* login register */
 
+.loginregister_container{margin-top:35px !important } 
 
+.loginRegister_img{height: 800px; width: 100%;}
+
+.loginRegister_img img{width: 100%;height: 100%;object-fit: cover;}
+
+.login_register_form{width: 50%;}
+
+.login_register_form input{
+  border: 0;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  margin-top: 20px;
+} 
+
+.login_register_form input:focus{
+  border-bottom-color:#db4444;
+  box-shadow: 0 0 0 0;
+}
+
+.login_register_form input::placeholder{color: #999999;}
+
+.Form_text h1{margin-bottom: 20px;}
+
+.Form_text span{font-weight: 600;}
+
+.Footer_login_form{margin-top: 35px;}
+
+.Footer_login_form button{background-color: #db4444;width: 135px;height: 55px;}
+
+.Footer_login_form button:hover{background-color:#db44449c;border-color: #db44449c;}
+
+.Footer_login_form span{margin-right: 73px; ;color:#db4444;font-weight: 600;}
+
+.Footer_register_form{width: 82%;flex-direction: column !important;}
+
+.Footer_register_form button{width: 100%;height: 55px; margin-top: 20px;font-weight: 600;}
+
+.Footer_register_form .Google_register{margin-top: 20px; border: 1px solid #ccc;}
+
+.Footer_register_form .Google_register svg{font-size: 45px;padding-right: 11px;}
+
+.Footer_register_form .Google_register:hover{background-color: #3d3d3d; color: #fff;}

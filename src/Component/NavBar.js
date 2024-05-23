@@ -22,10 +22,10 @@ export const NavBar = () => {
               </Offcanvas.Header>
               <Offcanvas.Body>
           <Nav className="justify-content-center flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Home</Nav.Link>
+                  <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="#action2">Contact</Nav.Link>
                   <Nav.Link href="#action2">About</Nav.Link>
-                  <Nav.Link href="#action2">Sign Up</Nav.Link>
+                  <Nav.Link href="/register">Sign Up</Nav.Link>
                 </Nav>
                 <Nav>
                 <Form className='serch_nav'>
