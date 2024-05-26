@@ -23,8 +23,8 @@ export const NavBar = () => {
               <Offcanvas.Body>
           <Nav className="justify-content-center flex-grow-1 pe-3">
                   <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="#action2">Contact</Nav.Link>
-                  <Nav.Link href="#action2">About</Nav.Link>
+                  <Nav.Link href="/Contact">Contact</Nav.Link>
+                  <Nav.Link href="/About">About</Nav.Link>
                   <Nav.Link href="/register">Sign Up</Nav.Link>
                 </Nav>
                 <Nav>
@@ -38,7 +38,7 @@ export const NavBar = () => {
                   </Form>
                 </Nav>
                 <Nav className="justify-content-end">
-                  <Nav.Link href="#action2" className='cart_icon'><BsCart2 /></Nav.Link>
+                  <Nav.Link href="/cart" className='cart_icon'><BsCart2 /></Nav.Link>
                   <Nav.Link href="#action2" className='user_icon'><BsPersonCircle /></Nav.Link>
                 </Nav>
                 </Offcanvas.Body>
