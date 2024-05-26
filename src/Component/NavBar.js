@@ -8,7 +8,7 @@ export const NavBar = () => {
    {['lg'].map((expand) => (
       <Navbar  key={expand} expand={expand} className="bg-body PureCart_Nav">
         <Container>
-          <Navbar.Brand href="#home" className='Brand_style'>PureCart</Navbar.Brand>
+          <Navbar.Brand href="/" className='Brand_style'>PureCart</Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
