@@ -9,6 +9,7 @@ import { NotFound } from './Page/NotFound';
 import { Contact } from './Page/Contact';
 import { Cart } from './Page/Cart';
 import { About } from './Page/About';
+import { ProductDetails } from './Page/ProductDetails';
 
 
 
@@ -24,6 +25,7 @@ function App() {
          <Route path='/Contact' element={<Contact/>}/>
          <Route path='/Cart' element={<Cart/>}/>
          <Route path='/About' element={<About/>}/>
+         <Route path='/ProductDetails' element={<ProductDetails/>}/>
          <Route path='*' element={<NotFound/>}/>
        </Routes>
     </BrowserRouter>

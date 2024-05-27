@@ -446,3 +446,35 @@ footer .Social_footer .linked:hover{color: #0081fb;}
   color: #fff;
   background-color: #355c7d;
 }
+
+/*ProductDetails*/
+.img_details_container{height: 615px;}
+
+.img_details_container .small_img_details{width: 100%; height: 142px;margin-bottom: 10px;cursor: grab;}
+
+.img_details_container .small_img_details img{width: 100%; height: 100%; object-fit: cover;}
+
+.big_img_details{width: 100%;margin-left: 10px;margin-top: 16px;height: 615px;}
+
+.big_img_details img{width: 100%; height: 100%; object-fit: cover;}
+
+
+.MuiToggleButtonGroup-root{height: 15px;margin-top: 8px;margin-left: 10px;}
+
+.counter_button{    background-color: #fff !important;color: #000 !important;border-color: #ccc !important;border-radius: 0 !important;}
+
+.counter_button_plus{background-color: rgb(219, 68, 68) !important;color: #fff !important;border-color: #ccc !important;border-radius: 0 !important;}
+
+.Buy_button{margin-left: 40px; width: 200px; border-radius: 4px !important; background-color: #db4444 !important; border-color: #db4444 !important;}
+
+.Buy_button:hover{background-color: #ab3f3f !important; border-color: #ab3f3f!important;}
+
+.Card_details_delivery{width: 82%;border: 1px solid #ccc;margin-top: 20px;}
+
+.icon_details_delivery svg{margin: 20px;font-size: 40px;margin-top: 30px;}
+
+.inform_details_delivery{margin-top: 20px;}
+
+.information_details h1{color: #db4444;}
+
+.information_details .information_price{font-size: 19px;font-weight: 700;}
