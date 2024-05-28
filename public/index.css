@@ -322,17 +322,19 @@ footer .Social_footer .linked:hover{color: #0081fb;}
 
 .Cart_img img{width: 70px;height: 100px;object-fit: cover;}
 
-.Cart_container .coupon_input{height: 55px;}
+.coupon_input{height: 55px;}
 
-.Cart_container .coupon_button{height: 55px;width: 220px;margin-left: 10px; background-color: #db4444; border-color: #db4444;}
+.coupon_button{height: 55px;width: 220px;margin-left: 10px; background-color: #db4444 !important; border-color: #db4444 !important;}
 
-.Cart_container .coupon_button:hover{background-color: #db44449c; border-color: #db44449c;}
+.coupon_button:hover{background-color: #db44449c !important; border-color: #db44449c !important;}
 
 .Cart_container .card_total{background-color: #fff;padding: 40px;box-shadow: 0px 0px 0px 2px #ccc;}
 
 .Cart_container .Checkout_button{height: 55px;width: 220px;background-color: #db4444; border-color: #db4444;margin-top: 25px;}
 
 .Cart_container .Checkout_button:hover{background-color: #db44449c; border-color: #db44449c;}
+
+.Cart_container .Checkout_button:active{background-color: #db4444 !important; border-color: #db44449c !important;}
 
 /*About*/
 
@@ -478,3 +480,38 @@ footer .Social_footer .linked:hover{color: #0081fb;}
 .information_details h1{color: #db4444;}
 
 .information_details .information_price{font-size: 19px;font-weight: 700;}
+/*checkout*/
+.checkout_container{margin: 35px 0 35px 0 !important;}
+
+.checkout_product_details{margin-top: 110px !important;}
+
+.checkout_product_details img{width: 40px; height: 40px; object-fit: cover;margin-right: 15px;}
+
+.checkout_product_details h4{margin-top: 5px;font-size: 20px;}
+
+.Billing_form{width: 80%;}
+
+.check_billing input:checked{background-color: #db4444 !important; border-color: #db4444 !important;}
+
+.check_billing .form-check-input:focus{box-shadow: 0 0 0 .25rem #db444444 !important;}
+/*react-paginate*/
+.Paginations_cover .page-link.active, .active>.page-link {background-color:#db4444 !important;color:#fff !important; border-color: #db4444 !important;}
+
+.Paginations_cover .page-link:focus{box-shadow: 0 0 0 0 #fff !important}
+
+.Paginations_cover .page-link{color: #000;}
+
+.Paginations_cover .page-link:hover{color: #000;}
+
+.css-1abqjyq-MuiBadge-badge{background-color: #db4444 !important}
+
+/*edit profile*/
+
+.Button_edit_profile .Cancels{margin-right: 5px;background-color: #fff;border-color: #000;color: #000;}
+
+.Button_edit_profile .Cancels:hover{background-color: #db4444; color: #fff; border-color: #db4444 !important;}
+
+.Button_edit_profile .Saves{background-color: #db4444 !important; border-color: #db4444 !important;}
+
+
+.Button_edit_profile .Saves:hover{background-color: #ab3f3f !important; border-color: #ab3f3f!important;}

@@ -119,7 +119,7 @@ export const Cart = () => {
         <span>Total:</span>
         <span>1750$</span>
       </div>
-      <Button className='Checkout_button justify-content-center'>Checkout</Button>
+      <Button href="/CheckOut" className='Checkout_button justify-content-center pt-3'>Checkout</Button>
     </div>
   </Col>
 </Row>

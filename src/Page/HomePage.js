@@ -12,14 +12,14 @@ export const HomePage = () => {
     <>
        <Carousel_Img/>
         <Container>
-          <Tittle_items text="Best Seller"/>
+          <Tittle_items text="Best Seller" locations="/BestSeller"/>
           <Card_Items/>
-          <Tittle_items text="Categories"/>
+          <Tittle_items text="Categories" locations="/Categories"/>
           <Categories/>
           <ShowProduct/>
-          <Tittle_items text="Product"/>
+          <Tittle_items text="Product" locations="/Product"/>
           <Card_Items/>
-          <Tittle_items text="Brands"/>
+          <Tittle_items text="Brands" locations="/Brand"/>
           <Brands/>
         </Container>
     </>

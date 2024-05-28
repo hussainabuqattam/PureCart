@@ -1,7 +1,10 @@
 import React from 'react'
 import { Container, Form, Nav, Navbar, Offcanvas } from 'react-bootstrap'
-import { BsCart2, BsPersonCircle   } from "react-icons/bs";
-
+import { BsPersonCircle   } from "react-icons/bs";
+import Box from '@mui/material/Box';
+import Badge from '@mui/material/Badge';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { Menu } from './Menu';
 export const NavBar = () => {
   return (
  <>
@@ -38,8 +41,16 @@ export const NavBar = () => {
                   </Form>
                 </Nav>
                 <Nav className="justify-content-end">
-                  <Nav.Link href="/cart" className='cart_icon'><BsCart2 /></Nav.Link>
-                  <Nav.Link href="#action2" className='user_icon'><BsPersonCircle /></Nav.Link>
+                  <Nav.Link href="/cart" className='cart_icon'>
+                  <Box sx={{ color: 'action.active' }}>
+                    <Badge color="secondary" badgeContent={2}>
+                      <ShoppingCartIcon />
+                    </Badge>
+                  </Box>
+                  </Nav.Link>
+                  <Nav.Link  className='user_icon'>
+                    <Menu/>
+                  </Nav.Link>
                 </Nav>
                 </Offcanvas.Body>
                 </Navbar.Offcanvas>
