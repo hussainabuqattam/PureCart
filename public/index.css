@@ -6,7 +6,7 @@
 
 .cart_icon{margin-right: 15px !important;font-size: 23px !important;padding-top: 0 !important;}
 
-.user_icon{font-size: 23px !important;padding-top: 0 !important;}
+.user_icon{font-size: 23px !important; margin-top: 7px !important;cursor: pointer;}
 
 .serch_nav{margin-right: 25px;}
 

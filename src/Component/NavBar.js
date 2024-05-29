@@ -48,9 +48,7 @@ export const NavBar = () => {
                     </Badge>
                   </Box>
                   </Nav.Link>
-                  <Nav.Link  className='user_icon'>
-                    <Menu/>
-                  </Nav.Link>
+                    <Menu  className='user_icon'/>
                 </Nav>
                 </Offcanvas.Body>
                 </Navbar.Offcanvas>
