@@ -24,6 +24,13 @@ export const Login = () => {
       return () => clearTimeout(timer); // Clear the timeout if component unmounts before 5 seconds
     }
   }, [success, navigate]);
+  const handleForgotPasswordClick = () => {
+    setLoading(true);
+    setTimeout(() => {
+      // Navigate to the forgot password page or perform other actions
+      window.location.href = "http://localhost:8000/password/forgot";
+    }, 1000);
+  };
   const submit = async (e) => {
     e.preventDefault();
     try {
@@ -57,7 +64,7 @@ export const Login = () => {
   };
   return (
     <Row className="loginregister_container" style={{ position: "relative" }}>
-      {loading && success && (
+      {loading && (
         <div
           style={{
             width: "100%",
@@ -131,7 +138,13 @@ export const Login = () => {
             <Button type="submit" variant="danger">
               Log In
             </Button>
-            <span>Forgget Password ?</span>
+            <a
+              style={{ textDecoration: "none" }}
+              href="http://localhost:8000/password/forgot"
+              onClick={handleForgotPasswordClick}
+            >
+              <span>Forgget Password ?</span>
+            </a>
           </div>
         </Form>
       </Col>

@@ -43,6 +43,13 @@ const ValidateRegister = (obj) => {
 
   return Schema.validate(obj);
 };
+// validate for reset-password 
+const passwordvalidate = (obj) => {
+  const Schema = Joi.object({
+    password: passwordComplexity().required(),
+  });
+  return Schema.validate(obj);
+};
 const User = mongoose.model("User", User_Schem);
 
-module.exports = { User, ValidateRegister };
+module.exports = { User, ValidateRegister, passwordvalidate };

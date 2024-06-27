@@ -5,11 +5,13 @@ const connectdb = require("./config/DB");
 const cors = require("cors");
 const { notFound, errorHandler } = require("./middlewars/errorhandler");
 
-app.use(cors({
-  origin: "http://localhost:3000"
-}));
+app.use(cors());
 
 const PORT = process.env.PORT || 8000;
+
+// ejs for mvc view
+app.set("view engine", "ejs");
+app.use(express.urlencoded({ extended: false }));
 
 // connect server
 connectdb();
@@ -18,6 +20,7 @@ app.listen(PORT, () => {
 });
 app.use(express.json());
 app.use("/user", require("./router/auth"));
+app.use("/password", require("./router/forgetPassword"));
 
 // error handler
 app.use(notFound);
